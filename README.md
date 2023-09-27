@@ -1,6 +1,6 @@
 # SocialMedia-API
-An application interface for social media platform, users can post, comment and create friendships.
-<b><strong>Video Demo at : https://drive.google.com/file/d/1VVTr3BU1pQ6hhjDUZ9WgaPZv1LGV4lRR/view?usp=sharing </strong></b>
+An application interface for social media platform, users can post, comment and create friendships.</br>
+<strong>Video Demo at : https://drive.google.com/file/d/1VVTr3BU1pQ6hhjDUZ9WgaPZv1LGV4lRR/view?usp=sharing </strong>
 
 <p>Tech stacks used:
   <ul>
