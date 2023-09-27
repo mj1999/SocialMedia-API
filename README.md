@@ -41,6 +41,7 @@ An application interface for social media platform, users can post, comment and 
     <li>For generating access token(JWT) send a POST req to http://localhost:8000/api/v1/users/create-session generated token is then returned back in the response which can be stored in client side and sent in authorisation header for each requests requiring it </li>
     <li>For authorization use the generated token and add it to Authorization header's value (create new header as key : Authorization if not already present) </li>
     <li>NOTE:Creating/deleting post/comment/friendship requires authorization header to be present in the request</li>
+    <li>For fetching user profile information send a GET req to http://localhost:8000/api/v1/users/profile/"target profile ID" </li>
     <li>For listing all posts send a GET req to http://localhost:8000/api/v1/posts/ </li>
     <li>For creating a new post send a POST req to http://localhost:8000/api/v1/posts/create with form data -> [ key:content and value:"post content here" ] in the body , also make sure to add the authorization header with the generated token for this request</li>
     <li>Similarly for creating comment you need to POST req to http://localhost:8000/api/v1/comment/create with form data -> [ key:content and value:"post content here" , key:postID and value:"ID of the post in which comment is being made" ] in the body  </li>
