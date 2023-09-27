@@ -37,6 +37,7 @@ An application interface for social media platform, users can post, comment and 
 </p>
 <p>Application usage and req formats for postman
 <ul>
+    <li>For creating new user send a POST req to http://localhost:8000/api/v1/users/create-user with form data -> [ key: email and value:"Your email" , key: password and value:"Your password here" , key: name and value:"Your name here" ]</li>
     <li>For generating access token(JWT) send a POST req to http://localhost:8000/api/v1/users/create-session generated token is then returned back in the response which can be stored in client side and sent in authorisation header for each requests requiring it </li>
     <li>For authorization use the generated token and add it to Authorization header's value (create new header as key : Authorization if not already present) </li>
     <li>NOTE:Creating/deleting post/comment/friendship requires authorization header to be present in the request</li>
