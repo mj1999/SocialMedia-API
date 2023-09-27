@@ -15,7 +15,7 @@ An application interface for social media platform, users can post, comment and 
   </ul>
 </p>
 
-<p>The project follows MVC folder structuring, and practical nomenclature i.e
+<p>The project follows MVC folder structuring, and practical nomenclature for easy scalability i.e
    <ul>
     <li>All the database document schemas are under Model folder</li>
     <li>All the server side functions are under Controller folder</li>
